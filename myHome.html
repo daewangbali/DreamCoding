@@ -3,37 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Dawoon's Portfolio</title>
+    <meta
+      name="description"
+      content="Portfolio for world-renowned software engineer Dawoon"
+    />
+    <meta name="author" content="Dawoon" />
+    <link rel="icon" type="image/png" href="imgs/favicon.png" />
+    <script
+      src="https://kit.fontawesome.com/9eb162ac0d.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js" defer></script>
 </head>
 <body>
     <!-- navBar -->
     <nav id="navbar">
-      <div class="navbar__logo"></div>
-       <i class="fas fa-diaspora"></i>
+      <div class="navbar__logo">
+       <i class="fab fa-diaspora"></i>
        <a href="#">dawoon</a>
     </div>
-    <div class="navbar__menu"></div>
-        <ul class="navbar__manu">
-           <li class="navbar__menu__items">Home</li>
+      <div class="navbar__menu">
+        <ul class="navbar__menu">
+            <li class="navbar__menu__items">Home</li>
             <li class="navbar__menu__items">About</li>
             <li class="navbar__menu__items">skills</li>
             <li class="navbar__menu__items">My work</li>
             <li class="navbar__menu__items">Testimonials</li>
             <li class="navbar__menu__items">Contact</li>
         </ul>
+      </div>
+    </nav>
 
-</nav>
+    <!-- Home -->
     <section id="home">
-        <img src="images/블핑.jpg" alt="blackPink photo" class="home__avatar">
-        <h1 class="home__title">Hello,<br> I'm dawoon</h1>
-        <h2 class="home__description">I'm gonna be the best.</h2>
+        <img 
+            src="imgs/블핑.jpg" 
+            alt="blackPink photo & dawoon's photo" 
+            class="home__avatar"
+        />
+
+        <h1 class="home__title">Hello, <br> I'm dawoon</h1>
+        <h2 class="home__description">
+            I'm gonna be the best. 넣어라
+        </h2>
         <button class="home__contect">Contact Me</button>
     </section>
     <!-- ablut -->
     <section id="about">
         <h1>About me</h1>
-        <p>self-introduction </p>
+        <p>
+            self-introduction 넣어라 
+        </p>
         <div class="about__majors">
+            <div class="major">
             <div class="major__icon">
                 <i class="fab fa-html5"></i>
             </div>
@@ -44,27 +72,33 @@
         </div>
         <div class="about__majors">
             <div class="major__icon">
-                <i class="fab fa-css3"></i>
+                <i class="fas fa-mobile"></i>
             </div>
-            <div class="major__title"></div>
-            <div class="major__description">
+            <h2 class="major__title">Mobile</h2>
+            <p class="major__description">
                 HTML, CSS, JAVA
-            </div>
+            </p>
         </div>
         <div class="about__majors">
             <div class="major__icon">
-                <i class="fab fa-java"></i>
+                <i class="fas fa-mobile"></i>
             </div>
-            <div class="major__title"></div>
-            <div class="major__description">
+            <h2 class="major__title">Mobile</h2>
+            <p class="major__description">
                 HTML, CSS, JAVA
-            </div>
+            </p>
         </div>
         <div class="about__jobs">
-            <div class="job"></div>
-            <img src="" alt="" class="job__logo">
-            <p class="job__name"></p>
-            <p class="job__period"></p>
+            <div class="job">
+            <img 
+            src="" 
+            alt="" 
+            class="job__logo"
+            />
+            <p class="job__name">
+                넣어하
+            </p>
+            <p class="job__period">넣어라</p>
         </div>
 
 
@@ -95,7 +129,7 @@
                         <span>10%</span>
                     </div>
                     <div class="skill__bar">
-                        <div class="skill__value"></div>
+                        <div class="skill__value" style="width: 90%;"></div>
                     </div>
                 </div>
                 <div class="skill">
@@ -104,7 +138,7 @@
                         <span>60%</span>
                     </div>
                     <div class="skill__bar">
-                        <div class="skill__value"></div>
+                        <div class="skill__value" style="width: 90%;"></div>
                     </div>
                 </div>
             </div>
@@ -160,7 +194,7 @@
     <section id="testimonials">
         <h1>Testimonials</h1>
         <h3>See what thay say about me</h3>
-        <div class="testimonial">
+        <div class="testimonials">
           
         <div class="testimonial">
             <img 
@@ -185,9 +219,6 @@
             </div> 
         </div>
         </div>
-
-
-
     </section>
 
     <!-- contact -->
